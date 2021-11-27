@@ -3,32 +3,38 @@
 
 html,
 body {
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  font-family: "Roboto Mono", sans-serif;
+	font-size: 16px;
+	font-family: "Roboto Mono", sans-serif;
 }
 
 #navbar {
-  flex-direction: column;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#options {
+	width: 45%;
+	margin: 0;
 }
 
-button {
-  border-style: none;
-  color: white;
-  background: #3f4c5c;
-  padding: 0.5em;
-  font-weight: bold;
-  margin: 2em;
-  cursor: pointer;
+li {
+	display: flex;
+	display: inline;
+	margin: 30px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #3f4c5c;
-  font-weight: 400;
+a {
+	color: #3f4c5c;
+	text-decoration: none;
+}
+a:hover {
+	color: #329694;
+}
+
+#title {
+	width: 55%;
+	color: #3f4c5c;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 15px;
 }
