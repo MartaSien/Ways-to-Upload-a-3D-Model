@@ -13,7 +13,7 @@ body {
 	align-items: center;
 }
 #options {
-	width: 45%;
+	width: 65%;
 	margin: 0;
 }
 
@@ -37,4 +37,9 @@ a:hover {
 	font-size: 30px;
 	font-weight: 400;
 	margin: 15px;
+}
+
+.paragraph {
+	color: #3f4c5c;
+	margin: 15px;	
 }
